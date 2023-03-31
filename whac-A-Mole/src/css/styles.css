@@ -1,0 +1,78 @@
+/* font roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body,
+html {
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                            supported by Chrome, Edge, Opera and Firefox */
+}
+.hoverArea {
+    padding: 100px 60px;
+}
+.container {
+    padding: 40px 50px 3px 50px;
+    border-radius: 50%;
+    cursor: default;
+    overflow: hidden;
+}
+
+.hole {
+    width: 80px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #5c2b2b;
+    border: solid 4px #f08080;
+    position: relative;
+    top: 3px;
+}
+
+.up {
+    overflow: hidden;
+    transition-delay: 6s;
+}
+
+.mole {
+    width: 100px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0px 0px;
+    position: relative;
+    right: 10px;
+    /* bottom: 43px; */
+    bottom: -10px;
+    transition: all 0.1s;
+}
+
+.hole.up > .mole {
+    /* animation: mole 1s linear infinite; */
+    bottom: 43px;
+}
+
+.up {
+    overflow: visible;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+h1 {
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
