@@ -67,4 +67,7 @@ span {
 .games {
     display: flex;
     flex-direction: row;
+    max-width: 70vw;
+    flex-wrap: wrap;
+    justify-content: center;
 }
