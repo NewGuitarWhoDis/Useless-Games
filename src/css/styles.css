@@ -7,3 +7,8 @@ body {
 a {
     text-decoration: none;
 }
+
+.games {
+    display: flex;
+    flex-direction: column;
+}

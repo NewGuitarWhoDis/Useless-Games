@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+		<link rel="stylesheet" href="./src/css/styles.css" />
+		<title>Russian Roulette</title>
+	</head>
+	<body>
+		<div id="died" class="died">
+			<h1>YOU DIED!</h1>
+			<button id="btn" onclick="tryAgain()">Click to try again</button>
+		</div>
+		<div id="gun" class="gun">
+			<h1 id="title">Russian Roulette</h1>
+			<p id="text">Click to try your luck!</p>
+			<img
+				id="img"
+				src="https://i.redd.it/nb0lmgrfrf821.png"
+				draggable="false"
+				alt=""
+				onclick="shoot()"
+			/>
+		</div>
+		<script src="./src/js/script.js"></script>
+	</body>
+</html>
