@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8vh;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    position: relative;
+    bottom: 80px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(84, 84, 243);
+    color: white;
+}
+
+.container {
+    width: 420px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    scale: 0.47619;
+}
+
+.qrcode {
+    width: 420px;
+    height: 420px;
+    position: relative;
+    background-color: white;
+}
+
+.left,
+.right,
+.bottom {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    background-color: black;
+    border: 20px rgb(255, 255, 255) solid;
+}
+.inner {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: black;
+    border: 20px rgb(255, 255, 255) solid;
+}
+
+.left {
+    position: absolute;
+    left: 0px;
+    border-left: none;
+    border-top: none;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    border-right: none;
+    border-top: none;
+}
+.bottom {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-bottom: none;
+    border-left: none;
+}
+
+.row1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+.on {
+    background-color: black;
+}
